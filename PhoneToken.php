@@ -5,7 +5,7 @@ $key = "S3Otb5s95cNPfNu3q17DyQ";//密钥
 
 $timestamp = time();//时间戳
 
-$nS= $timestamp/30%1000000;//每10秒变一次
+$nS= $timestamp/30%1000000;//每30秒变一次
 
 $code = md5($key.$nS);
 

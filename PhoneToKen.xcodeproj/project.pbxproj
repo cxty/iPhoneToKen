@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0082C5F15C7DC2F00540EC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0082C5E15C7DC2F00540EC5 /* UIKit.framework */; };
+		A0082C6115C7DC2F00540EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0082C6015C7DC2F00540EC5 /* Foundation.framework */; };
+		A0082C6315C7DC2F00540EC5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0082C6215C7DC2F00540EC5 /* CoreGraphics.framework */; };
+		A0082C6915C7DC2F00540EC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0082C6715C7DC2F00540EC5 /* InfoPlist.strings */; };
+		A0082C6B15C7DC2F00540EC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0082C6A15C7DC2F00540EC5 /* main.m */; };
+		A0082C6F15C7DC2F00540EC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0082C6E15C7DC2F00540EC5 /* AppDelegate.m */; };
+		A0082C7215C7DC2F00540EC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0082C7115C7DC2F00540EC5 /* ViewController.m */; };
+		A0082C7515C7DC2F00540EC5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0082C7315C7DC2F00540EC5 /* ViewController.xib */; };
+		A0082C7D15C7DC2F00540EC5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0082C7C15C7DC2F00540EC5 /* SenTestingKit.framework */; };
+		A0082C7E15C7DC2F00540EC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0082C5E15C7DC2F00540EC5 /* UIKit.framework */; };
+		A0082C7F15C7DC2F00540EC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0082C6015C7DC2F00540EC5 /* Foundation.framework */; };
+		A0082C8715C7DC2F00540EC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0082C8515C7DC2F00540EC5 /* InfoPlist.strings */; };
+		A0082C8A15C7DC2F00540EC5 /* PhoneToKenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0082C8915C7DC2F00540EC5 /* PhoneToKenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0082C8015C7DC2F00540EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0082C5115C7DC2F00540EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0082C5915C7DC2F00540EC5;
+			remoteInfo = PhoneToKen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0082C5A15C7DC2F00540EC5 /* PhoneToKen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneToKen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0082C5E15C7DC2F00540EC5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0082C6015C7DC2F00540EC5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0082C6215C7DC2F00540EC5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0082C6615C7DC2F00540EC5 /* PhoneToKen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneToKen-Info.plist"; sourceTree = "<group>"; };
+		A0082C6815C7DC2F00540EC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0082C6A15C7DC2F00540EC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0082C6C15C7DC2F00540EC5 /* PhoneToKen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhoneToKen-Prefix.pch"; sourceTree = "<group>"; };
+		A0082C6D15C7DC2F00540EC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0082C6E15C7DC2F00540EC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0082C7015C7DC2F00540EC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0082C7115C7DC2F00540EC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0082C7415C7DC2F00540EC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A0082C7B15C7DC2F00540EC5 /* PhoneToKenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneToKenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0082C7C15C7DC2F00540EC5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A0082C8415C7DC2F00540EC5 /* PhoneToKenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhoneToKenTests-Info.plist"; sourceTree = "<group>"; };
+		A0082C8615C7DC2F00540EC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0082C8815C7DC2F00540EC5 /* PhoneToKenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneToKenTests.h; sourceTree = "<group>"; };
+		A0082C8915C7DC2F00540EC5 /* PhoneToKenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneToKenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0082C5715C7DC2F00540EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0082C5F15C7DC2F00540EC5 /* UIKit.framework in Frameworks */,
+				A0082C6115C7DC2F00540EC5 /* Foundation.framework in Frameworks */,
+				A0082C6315C7DC2F00540EC5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0082C7715C7DC2F00540EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0082C7D15C7DC2F00540EC5 /* SenTestingKit.framework in Frameworks */,
+				A0082C7E15C7DC2F00540EC5 /* UIKit.framework in Frameworks */,
+				A0082C7F15C7DC2F00540EC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0082C4F15C7DC2E00540EC5 = {
+			isa = PBXGroup;
+			children = (
+				A0082C6415C7DC2F00540EC5 /* PhoneToKen */,
+				A0082C8215C7DC2F00540EC5 /* PhoneToKenTests */,
+				A0082C5D15C7DC2F00540EC5 /* Frameworks */,
+				A0082C5B15C7DC2F00540EC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0082C5B15C7DC2F00540EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0082C5A15C7DC2F00540EC5 /* PhoneToKen.app */,
+				A0082C7B15C7DC2F00540EC5 /* PhoneToKenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0082C5D15C7DC2F00540EC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0082C5E15C7DC2F00540EC5 /* UIKit.framework */,
+				A0082C6015C7DC2F00540EC5 /* Foundation.framework */,
+				A0082C6215C7DC2F00540EC5 /* CoreGraphics.framework */,
+				A0082C7C15C7DC2F00540EC5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0082C6415C7DC2F00540EC5 /* PhoneToKen */ = {
+			isa = PBXGroup;
+			children = (
+				A0082C6D15C7DC2F00540EC5 /* AppDelegate.h */,
+				A0082C6E15C7DC2F00540EC5 /* AppDelegate.m */,
+				A0082C7015C7DC2F00540EC5 /* ViewController.h */,
+				A0082C7115C7DC2F00540EC5 /* ViewController.m */,
+				A0082C7315C7DC2F00540EC5 /* ViewController.xib */,
+				A0082C6515C7DC2F00540EC5 /* Supporting Files */,
+			);
+			path = PhoneToKen;
+			sourceTree = "<group>";
+		};
+		A0082C6515C7DC2F00540EC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0082C6615C7DC2F00540EC5 /* PhoneToKen-Info.plist */,
+				A0082C6715C7DC2F00540EC5 /* InfoPlist.strings */,
+				A0082C6A15C7DC2F00540EC5 /* main.m */,
+				A0082C6C15C7DC2F00540EC5 /* PhoneToKen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0082C8215C7DC2F00540EC5 /* PhoneToKenTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0082C8815C7DC2F00540EC5 /* PhoneToKenTests.h */,
+				A0082C8915C7DC2F00540EC5 /* PhoneToKenTests.m */,
+				A0082C8315C7DC2F00540EC5 /* Supporting Files */,
+			);
+			path = PhoneToKenTests;
+			sourceTree = "<group>";
+		};
+		A0082C8315C7DC2F00540EC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0082C8415C7DC2F00540EC5 /* PhoneToKenTests-Info.plist */,
+				A0082C8515C7DC2F00540EC5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0082C5915C7DC2F00540EC5 /* PhoneToKen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0082C8D15C7DC2F00540EC5 /* Build configuration list for PBXNativeTarget "PhoneToKen" */;
+			buildPhases = (
+				A0082C5615C7DC2F00540EC5 /* Sources */,
+				A0082C5715C7DC2F00540EC5 /* Frameworks */,
+				A0082C5815C7DC2F00540EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneToKen;
+			productName = PhoneToKen;
+			productReference = A0082C5A15C7DC2F00540EC5 /* PhoneToKen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0082C7A15C7DC2F00540EC5 /* PhoneToKenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0082C9015C7DC2F00540EC5 /* Build configuration list for PBXNativeTarget "PhoneToKenTests" */;
+			buildPhases = (
+				A0082C7615C7DC2F00540EC5 /* Sources */,
+				A0082C7715C7DC2F00540EC5 /* Frameworks */,
+				A0082C7815C7DC2F00540EC5 /* Resources */,
+				A0082C7915C7DC2F00540EC5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0082C8115C7DC2F00540EC5 /* PBXTargetDependency */,
+			);
+			name = PhoneToKenTests;
+			productName = PhoneToKenTests;
+			productReference = A0082C7B15C7DC2F00540EC5 /* PhoneToKenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0082C5115C7DC2F00540EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "gan chen";
+			};
+			buildConfigurationList = A0082C5415C7DC2F00540EC5 /* Build configuration list for PBXProject "PhoneToKen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0082C4F15C7DC2E00540EC5;
+			productRefGroup = A0082C5B15C7DC2F00540EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0082C5915C7DC2F00540EC5 /* PhoneToKen */,
+				A0082C7A15C7DC2F00540EC5 /* PhoneToKenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0082C5815C7DC2F00540EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0082C6915C7DC2F00540EC5 /* InfoPlist.strings in Resources */,
+				A0082C7515C7DC2F00540EC5 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0082C7815C7DC2F00540EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0082C8715C7DC2F00540EC5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0082C7915C7DC2F00540EC5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0082C5615C7DC2F00540EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0082C6B15C7DC2F00540EC5 /* main.m in Sources */,
+				A0082C6F15C7DC2F00540EC5 /* AppDelegate.m in Sources */,
+				A0082C7215C7DC2F00540EC5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0082C7615C7DC2F00540EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0082C8A15C7DC2F00540EC5 /* PhoneToKenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0082C8115C7DC2F00540EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0082C5915C7DC2F00540EC5 /* PhoneToKen */;
+			targetProxy = A0082C8015C7DC2F00540EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0082C6715C7DC2F00540EC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0082C6815C7DC2F00540EC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0082C7315C7DC2F00540EC5 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0082C7415C7DC2F00540EC5 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A0082C8515C7DC2F00540EC5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0082C8615C7DC2F00540EC5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0082C8B15C7DC2F00540EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0082C8C15C7DC2F00540EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0082C8E15C7DC2F00540EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneToKen/PhoneToKen-Prefix.pch";
+				INFOPLIST_FILE = "PhoneToKen/PhoneToKen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0082C8F15C7DC2F00540EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneToKen/PhoneToKen-Prefix.pch";
+				INFOPLIST_FILE = "PhoneToKen/PhoneToKen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A0082C9115C7DC2F00540EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhoneToKen.app/PhoneToKen";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneToKen/PhoneToKen-Prefix.pch";
+				INFOPLIST_FILE = "PhoneToKenTests/PhoneToKenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A0082C9215C7DC2F00540EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhoneToKen.app/PhoneToKen";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhoneToKen/PhoneToKen-Prefix.pch";
+				INFOPLIST_FILE = "PhoneToKenTests/PhoneToKenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0082C5415C7DC2F00540EC5 /* Build configuration list for PBXProject "PhoneToKen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0082C8B15C7DC2F00540EC5 /* Debug */,
+				A0082C8C15C7DC2F00540EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0082C8D15C7DC2F00540EC5 /* Build configuration list for PBXNativeTarget "PhoneToKen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0082C8E15C7DC2F00540EC5 /* Debug */,
+				A0082C8F15C7DC2F00540EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0082C9015C7DC2F00540EC5 /* Build configuration list for PBXNativeTarget "PhoneToKenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0082C9115C7DC2F00540EC5 /* Debug */,
+				A0082C9215C7DC2F00540EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0082C5115C7DC2F00540EC5 /* Project object */;
+}
